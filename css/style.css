@@ -60,18 +60,21 @@ header li a:hover,
   /*---------- Form ----------*/
 form {
     display: flex;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 100%;
+    align-items: center;
+    height: 49px;
+    padding: 15px 16px;
+    gap: 10px;
   }
 
   /*---------- Îcon localisation ----------*/
 .fa-location-dot {
     border-radius: 20px 0 0 20px;
-    padding: 17px 17px;
+
     font-size: 16px;
     background-color: #f2f2f2;  
     color: black;  
+    width: 50px;
+   height: 49px;
   }
 
   /*---------- Input search ----------*/
@@ -82,15 +85,19 @@ form {
     background-color: #0065fc;
     color: white;  
     aling-self: center;
+    width: 50px;
+    height: 49px;
   }
 
 .search_bar::placeholder {
-    color: black; 
+    color: var(--Black, #000);
     text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 50px;
+    height: 49px;
   }
 
 
@@ -281,7 +288,16 @@ a {
 }
 .activites-cards img {
  
-    
+
+}
+
+footer {
+    display: flex;
+    background: var(--main-bg-color);
+    margin-top: 60px;
+    padding-left: 40px;
+    gap: 10%;
+    height: 200px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
