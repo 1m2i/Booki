@@ -61,33 +61,33 @@ header li a:hover,
 form {
     display: flex;
     align-items: center;
-    height: 49px;
-    padding: 15px 16px;
-    gap: 10px;
+    
   }
 
   /*---------- Îcon localisation ----------*/
 .fa-location-dot {
-    border-radius: 20px 0 0 20px;
-
-    font-size: 16px;
-    background-color: #f2f2f2;  
-    color: black;  
+    display: flex;
     width: 50px;
-   height: 49px;
+    margin: -1px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    color: black;
   }
 
   /*---------- Input search ----------*/
 .search_bar {
-    border-radius: 0px 20px 20px 0;               
-    border: 0.1px solid #f2f2f2;
-    width: 120px;   
     background-color: #0065fc;
     color: white;  
     aling-self: center;
-    width: 50px;
+    width: 132px;
     height: 49px;
-  }
+    border-radius: 0, 15px, 15px, 0;
+    gap: 10px;
+}
 
 .search_bar::placeholder {
     color: var(--Black, #000);
