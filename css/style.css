@@ -217,19 +217,24 @@ a {
 .hebergements {
     width: 65%;
 }
-
-
+.hebergements-title h2 {
+    margin-top: 0;
+}
 
 .hebergements-cards img {
-    height: 136px;
-    border-radius: 20px;
-    
+    width: 240px;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
 }
 
 .hebergements-cards  {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;   
+    gap: 25px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
 }
 
 /****** Populaires ***********/
@@ -288,12 +293,13 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
 }
+
 .Activites-card img  {
-    width: 320px;
-    height: 420px;
+    width: 300px;
+    height: 400px;
     border-radius: 20px 20px 0 0;
-    gap: 2%;
 }
 
 footer {
