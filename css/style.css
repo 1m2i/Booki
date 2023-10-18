@@ -95,7 +95,7 @@ form {
     color: black;
     font-weight: bolder;
   }
-fa-magnifying-glass{
+fa-magnifying-glas{
 	display: none;
 }
 
@@ -108,7 +108,8 @@ fa-magnifying-glass{
     margin: auto;
     margin-bottom: 20px;
     width: 100%;
-}
+    
+  }
   
 .filters h2 {
     margin-right: 20px;
@@ -225,7 +226,7 @@ a {
     
 }
 
-.hebergements-cards1  {
+.hebergements-cards  {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;   
