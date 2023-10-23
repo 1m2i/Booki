@@ -91,14 +91,40 @@ form {
 	cursor: pointer;
 }
 
-.search_bar:placeholder {
+form Input {
     color: black;
     font-weight: bolder;
-  }
+    width: 200px;
+    padding-left: 20px;
+    
+}
+  
 fa-magnifying-glas{
 	display: none;
 }
+/*----------info-logement------*/
 
+.infos-logements {
+	font-size: 13px;
+	display: flex;
+	align-items: baseline;
+}
+.infos-icon {
+	color: #0065fc;
+}
+.infos-icon i {
+	height: 25px;
+	width: 25px;
+	border-radius: 25px;
+	border: 1px solid #f2f2f2;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 0 0 9px;
+}
+.infos-txt {
+	padding-left: 10px;
+	padding-bottom: 35px;
+}
 /****** filters *******/
 
 .filters {
@@ -128,11 +154,11 @@ fa-magnifying-glas{
 .filters li {
     display: flex;
     align-items: center;
-    padding-right: 20px;
-    margin-top: 10px;
-    border: 2px solid #f2f2f2;
-    border-radius: 30px;
-    border-left: none;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 28px;
+    gap: 10px;@
+  
   }
   
 .filters li:hover,
@@ -148,9 +174,6 @@ fa-magnifying-glas{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
     color: #0065fc;      
 }
   
@@ -182,7 +205,9 @@ a {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-shadow: 0 1px 1px 0;
 }
+
 
 .card img {
     object-fit: cover;
@@ -298,8 +323,17 @@ a {
 
 .Activites-card img  {
     width: 300px;
-    height: 400px;
+    height: 380px;
     border-radius: 20px 20px 0 0;
+   
+}
+
+.Activites-card .card {
+    padding:0 0 5px 0;
+}
+
+.Activites-card .card h3 {
+    padding-left: 25px;
 }
 
 footer {
@@ -307,8 +341,12 @@ footer {
     background: var(--main-bg-color);
     margin-top: 60px;
     padding-left: 40px;
-    gap: 10%;
+    gap: 7%;
     height: 200px;
+}
+
+footer section {
+    
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
