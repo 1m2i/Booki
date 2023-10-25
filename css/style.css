@@ -115,9 +115,11 @@ fa-magnifying-glas{
 .infos-icon {
 	color: #0065fc;
 }
+
 .infos-icon i {
     border: 2px solid #f2f2f2;
-    border-radius: 20px;
+    border-radius: 30px;
+    
     padding: 5px 10px; 
 }
 
