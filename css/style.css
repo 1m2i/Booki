@@ -21,6 +21,18 @@ body {
 img {
     width: 100%;
 }
+/*---------- titles-sizes ----------*/
+h1 {
+    font-size: 28px;
+  }
+  
+h2 {
+    font-size: 23px;
+  }
+  
+h3 {
+    font-size: 18px;
+  }
 
 /*---------- Header ----------*/
 header {
@@ -94,13 +106,17 @@ form {
 	padding: 0 15px;
 	width: 122px;
 	cursor: pointer;
+    font-weight:700;
 }
 
 form Input {
     color: black;
-    font-weight: bolder;
+    font-weight:700;
     width: 150px;
     padding-left: 20px;
+}
+.placeholder {
+    font-weight: 700;
 }
 
 fa-magnifying-glas{
