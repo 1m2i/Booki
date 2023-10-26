@@ -275,6 +275,16 @@ a {
     margin: 0;
 }
 
+.hebergements-cards .card-content {
+    padding-left: 10px;
+    margin-bottom:5px;
+}
+
+
+.hebergements-cards .card-content h3 {
+    margin-top:0;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
