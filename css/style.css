@@ -366,8 +366,8 @@ footer {
     background: var(--main-bg-color);
     margin-top: 60px;
     padding-left: 40px;
-    gap: 7%;
-    height: 200px;
+    gap: 15%;
+    height: 180px;
 }
 
 footer ul{
