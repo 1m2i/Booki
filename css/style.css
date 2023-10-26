@@ -371,12 +371,17 @@ footer {
 }
 
 footer ul{
-    padding: 0;
-   margin: 0;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
-footer section {
+footer h3 {
+    margin-top: 35px;
+}
+
+footer li {
+    margin: 5px;
 
 }
 
