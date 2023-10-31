@@ -57,9 +57,10 @@ header ul {
   }
 
 header li a:hover,
-        li a:focus {
+header li a:focus {
       border-top: #0065FC solid 2px;
       color: #0065FC;
+      padding: 20px;
   }
 
 
