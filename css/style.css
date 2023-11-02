@@ -16,7 +16,6 @@
 body {
     display: flex;
     justify-content: center;
-    margin: auto;
 }
 
 img {
@@ -32,7 +31,7 @@ h2 {
     font-size: 18px;
   }
   
-h3 {
+h4 {
     font-size: 16px;
   }
 
@@ -281,9 +280,14 @@ a {
     margin: 0;
 }
 
+.hebergements .card-content h4 {
+    margin: 7px;
+    margin-left: 0px;
+}
+
+
 .hebergements-cards a {
     width: 30%;
-    height: 200px;
 }
 
 .hebergements-cards .card-content {
@@ -295,8 +299,9 @@ a {
     margin-top:0;
 }
 
-.hebergements span {
+.hebergements-text {
     font-weight: 700;
+    margin-top: 30px;
 }
 
 /****** Populaires ***********/
@@ -365,7 +370,7 @@ a {
 }
 
 .Activites-card a {
-    width: 40%;
+    width: 30%;
     height: 400px;
 }
 
@@ -373,18 +378,18 @@ a {
     padding:0 0 5px 0;
 }
 
-.Activites-card .card h3 {
-    padding-left: 25px;
+.Activites-card h4 {
+    margin-left: 20px;
 }
+
+
 footer {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: var(--main-bg-color);
-    margin-top: 50px;
-    padding-left: 20px;
-    height: 170px;
-    align-items: flex-start;
-    gap: 150px;
-    align-self: stretch;
+    margin-top: 60px;
+    width: 100%;
 
 }
 
@@ -409,14 +414,56 @@ footer li {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1200px) {
+    .hebergements {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+    .hebergements-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+    }
+    .hebergements-cards .card {
+        display: flex;
+        align-items: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    .hebergements  a {
+        flex-direction: column;
+        width: 100%;
+    }
+    .hebergements img {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .hebergements .card-content h4 {
+        margin: 7px;
+        margin-left: 0px;
+    }
+
+}
+
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
+        align-item: space-between;
+        justify-content: center;
+
     }
 
     .hebergements {
         width: 100%;
         align-item: center;
+        justify-content: space-between;
+    }
+
+    .hebergements-text {
+        margin-top: 35px;
     }
 
     .populaires {
@@ -444,14 +491,14 @@ footer li {
     .activites {
         display:flex;
         flex-direction: column;
-        width: 100%;
+        
     }
-
-    .activites-cards a {
-        display:flex;
-       
+    .Activites-card .card {
+        height: 420px;
     }
-
+    .Activites-card .card h4{
+        margin: 10px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
