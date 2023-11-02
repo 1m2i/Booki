@@ -13,7 +13,6 @@
     color: var(--main-color);
 }
 
-
 body {
     display: flex;
     justify-content: center;
@@ -24,13 +23,14 @@ body {
 img {
     width: 100%;
 }
+
 /*---------- titles-sizes ----------*/
 h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
   
 h2 {
-    font-size: 21px;
+    font-size: 18px;
   }
   
 h3 {
@@ -47,7 +47,7 @@ header {
 header img {
   width: 80px;
   padding-top: 10px;
-  }
+}
 
 header ul {
     display: flex;
@@ -55,14 +55,14 @@ header ul {
     gap: 50px;
     list-style: none;
     align-content: center;
-  }
+}
 
 header li a:hover,
 header li a:focus {
-      border-top: #0065FC solid 3px;
-      color: #0065FC;
-      padding-top: 20px;
-  }
+    border-top: #0065FC solid 3px;
+    color: #0065FC;
+    padding-top: 20px;
+}
 
 .header-text h1 {
     margin-top: 25px;
@@ -78,9 +78,9 @@ form {
     display: flex;
     height: 49px;
     margin-top: 35px;  
-  }
+}
 
-  /*---------- Îcon localisation ----------*/
+/*---------- Îcon localisation ----------*/
 .fa-location-dot {
     display: flex;
     width: 50px;
@@ -93,7 +93,7 @@ form {
     color: black;
   }
 
-  /*---------- Input search ----------*/
+/*---------- Input search ----------*/
 .search_bar {
     background-color: #0065fc;
     border-radius: 0, 15px, 15px, 0;
@@ -153,11 +153,11 @@ form Input {
     margin-bottom: 20px;
     margin-top: 20px;
     width: 100%;
-  }
+}
 
 .filters h2 {
     margin-right: 20px;
-  }
+}
 
 .filters ul {
     display: flex;
@@ -166,7 +166,7 @@ form Input {
     padding: 0;
     list-style: none; 
     gap: 10px;
-  }
+}
 
 .filters li {
     display: flex;
@@ -176,7 +176,7 @@ form Input {
     border: 2px solid #F2F2F2;
     padding: 10px 30px 10px 20px; 
     font-weight: 700;
-  }
+}
 
 .filters li:hover,
 .filters li:focus {
@@ -224,7 +224,6 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     box-shadow: 0 1px 1px 0;
 }
-
 
 .card img {
     object-fit: cover;
@@ -282,6 +281,7 @@ a {
 .hebergements-cards .card-subtitle {
     margin: 0;
 }
+
 .hebergements-cards a {
     width: 30%;
     height: 200px;
@@ -295,6 +295,7 @@ a {
 .hebergements-cards .card-content h3 {
     margin-top:0;
 }
+
 .hebergements span {
     font-weight: 700;
 }
@@ -345,18 +346,16 @@ a {
 }
 
 /****** activites *******/
-
 .Activites {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-.Activites-cards  {
+.Activites-card  {
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
+    flex-direction: row;
+    gap: 20px;
 }
-
 
 .Activites-card img  {
     width: 100%;
@@ -366,6 +365,11 @@ a {
 	padding: 0;
 }
 
+.Activites-card a {
+    width: 40%;
+    height: 400px;
+}
+
 .Activites-card .card {
     padding:0 0 5px 0;
 }
@@ -373,8 +377,7 @@ a {
 .Activites-card .card h3 {
     padding-left: 25px;
 }
-
-footer {
+oter {
     display: flex;
     background: var(--main-bg-color);
     margin-top: 30px;
@@ -400,6 +403,7 @@ footer li {
     margin: 15px;
 
 }
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
