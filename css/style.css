@@ -16,7 +16,6 @@
 body {
     display: flex;
     justify-content: center;
-    max-width: 1440px;
     margin-auto;
 }
 
@@ -380,12 +379,13 @@ a {
 footer {
     display: flex;
     background: var(--main-bg-color);
-    margin-top: 30px;
+    margin-top: 50px;
     padding-left: 20px;
     height: 170px;
     align-items: flex-start;
     gap: 150px;
     align-self: stretch;
+
 }
 
 footer ul{
