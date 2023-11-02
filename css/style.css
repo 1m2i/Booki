@@ -443,10 +443,13 @@ footer li {
     }
     .activites {
         display:flex;
+        flex-direction: column;
         width: 100%;
     }
 
     .activites-cards a {
+        display:flex;
+       
     }
 
 }
