@@ -15,8 +15,10 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 img {
     width: 100%;
@@ -94,7 +96,7 @@ form {
 /*---------- Input search ----------*/
 .search_bar {
     background-color: #0065fc;
-    border-radius: 0, 15px, 15px, 0;
+    border-radius: 0 15px 15px 0;
     gap: 10px;
     color: white;
 	border: 0;
@@ -203,7 +205,7 @@ form Input {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
-}
+}  
 
 a {
     color: inherit;
@@ -350,9 +352,10 @@ a {
 }
 
 /****** activites *******/
-.Activites {
+.activites {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .Activites-card  {
@@ -385,8 +388,8 @@ a {
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap: 15%;
     background: var(--main-bg-color);
     margin-top: 60px;
     width: 100%;
@@ -397,6 +400,7 @@ footer ul{
   padding: 0;
   margin: 0;
   list-style-type: none;
+  
 }
 
 footer h3 {
@@ -418,7 +422,6 @@ footer li {
     .hebergements {
         display: flex;
         flex-direction: column;
-        align-items: space-between;
     }
 
     .hebergements-cards {
@@ -428,7 +431,6 @@ footer li {
     }
     .hebergements-cards .card {
         display: flex;
-        align-items: space-between;
         flex-direction: column;
         height: 100%;
     }
@@ -504,6 +506,175 @@ footer li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
  /* ... */
+ 
+    header {
+        display:unset;
+    }
+
+    header a {
+      display: flex;
+      justify-content: center;
+    }
+  
+    header ul {
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        padding: 0px;
+    }
+    
+  
+    header li { 
+      border-bottom: 2px solid transparent;
+      padding: 30px;
+    }
+    
+    header li:hover,
+    header li:focus {
+      border-bottom-color: #0065fc ;
+      border-top: none;
+    }
+    
+  
+    form {
+      Padding-top: 20px;
+    }
+  
+    form input {
+      width: 50%;
+      height: 50px;
+      padding-left: 20px;
+    }
+  
+    button span {
+      display: none !important; 
+    }
+  
+   .fa-magnifying-glass {
+      display: block;
+      color: white;
+      width: 50px;
+    }
+  
+    .fa-location-dot{
+      width: 20px;
+      padding-left: 25px;
+    }
+  
+    .filters {
+      flex-wrap: wrap;
+      padding-top: 20px;
+      gap: 10%;
+    }
+  
+    .filters ul {
+      flex-wrap: wrap;
+    }
+  
+    .filters li {
+      flex-wrap: wrap;
+      flex-direction: row;
+      border: 3px solid #F2F2F2;
+      width: 25%;
+    }
+    
+    .information {
+      padding-top: 30px;
+      padding-left: 15px;
+      gap: 30px;
+    }
+  
+    main {
+      display: flex; 
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  
+    .populaires {
+      width: 100%;
+      height: 780px;
+      border-radius: 0;
+    }
+   
+    .populaires header {
+      flex-direction: row;
+      gap: 65%;
+    }
+  
+    .populaires ul {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .populaires img {
+      width: 25vw;
+    } 
+  
+    .populaires figure {
+      width: 100%;
+    } 
+  
+    .populaires figcaption {
+      padding-top: 5px;
+      padding-left: 20px;
+    }
+    
+    .populaires div {
+      padding-top: 70px;
+    }
+  
+    .hebergements {
+      background-color: white;
+      padding: 20px 15px;
+    }
+    
+    .hebergements span {
+      display: none;
+    }
+  
+    .hebergements ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .hebergements img {
+      width: 98%;
+      height: 100px;
+    }
+  
+    .activites {
+      padding: 20px 20px 100px 20px; 
+    }
+  
+    .activites ul {
+      flex-direction: column;
+    }
+  
+    .activites figure {
+      height: 240px;
+      box-shadow: 0 1px 1px 0;
+    }
+  
+    .activites img {
+      height: 180px;
+      width: 100%
+    }
+    
+    footer {
+      flex-direction: column;
+      justify-content:space-around;
+      gap: 1px;
+      margin: 0;
+      padding:0;
+      height: 400px;
+    }
+  
+    footer section {
+      margin: 0;
+      padding-left: 40px;
+    }
+  }
+  
   
 
 }
