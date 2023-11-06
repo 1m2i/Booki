@@ -453,14 +453,12 @@ footer li {
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
-        align-item: space-between;
         justify-content: center;
 
     }
 
     .hebergements {
         width: 100%;
-        align-item: center;
         justify-content: space-between;
     }
 
