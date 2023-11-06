@@ -637,11 +637,17 @@ footer li {
     .Activites-card {
        display:flex;
        flex-direction: column;
+       gap: 45px;
      
     }
 
+    .Activites-card .card {
+        height: 100%;
+        padding-bottom :20px
+    }
+
     .Activites-card img {
-        height: 180px;
+        height: 160px;
     }
 
     .Activites-card a {
