@@ -455,6 +455,12 @@ footer li {
     .filters ul {
         flex-wrap: nowrap;
     }
+
+    .filters li {
+        flex-wrap: nowrap;
+        font-style: 12px
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
         justify-content: center;
@@ -508,36 +514,35 @@ footer li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
  /* ... */
- .main-container {
-    padding: 0px;
- }
+   .main-container {
+        padding: 0px;
+    }
  
     header {
         display:unset;
     }
 
     header div a {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
   
     header ul {
         display: flex;
-        justify-content:space-evenly;
         flex-direction: row;
         padding: 0px;
-        border-top: none;
     }
     
     header li { 
         display:flex;
         flex-direction:row;
         padding: 30px;
-        border-top: unset;
     }
-    header li a:hover,
-    header li a:focus {
+
+    header li :hover,
+    header li :focus {
         border-bottom: #0065FC solid 3px;
+        padding-bottom: 30px;
     }
     
     header li a:hover,
@@ -546,26 +551,30 @@ footer li {
 }
   
     form {
-      Padding-top: 20px;
-      justify-content: center;
+        Padding-top: 20px;
+        justify-content: center;
       
     }
   
     form input {
-      width: 50%;
-      height: 50px;
-      padding-left: 20px;
+        width: 50%;
+        height: 50px;
+        padding-left: 20px;
     }
   
     button span {
-      display: none !important; 
+        display: none !important; 
 
+    }
+
+    .search_bar {
+        width: unset;
     }
   
    .fa-magnifying-glass {
-      display: block;
-      color: white;
-      font-size: 20px;
+        display: block;
+        color: white;
+        font-size: 20px;
     }
 
     .search_bar i {
@@ -573,33 +582,37 @@ footer li {
     }
   
     .filters {
-      flex-wrap: wrap;
-      padding-top: 20px;
-      gap: 5%;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        gap: 5%;
     }
   
     .filters ul {
-      flex-wrap: wrap;
-      gap: 0px;
-
+        display:flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
   
     .filters li {
         display:flex;
         flex-direction: row;
-        border: 3px solid #F2F2F2;
+        flex-wrap:nowrap;
+        border: 2px solid #F2F2F2;
         width: 35%;
+        
     }
   
     .hebergements-and-populaires {
-      display: flex; 
-      flex-direction: column-reverse;
-      gap: 20px;
+        display: flex; 
+        flex-direction: column-reverse;
+        gap: 20px;
     }
   
     .populaires-title {
-      flex-direction: row;
-      gap: 65%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    
     }
   
     .populaires-cards {
@@ -610,7 +623,7 @@ footer li {
     }
     
     .populaires-cards a {
-      width: 100%;
+        width: 100%;
     } 
    /******** hebergements ******/
 
@@ -619,7 +632,7 @@ footer li {
     }
 
     .hebergements span {
-      display: none;
+        display: none;
     }
 
     .hebergementss-card a {
@@ -633,18 +646,18 @@ footer li {
     }
   
     .hebergements img {
-      height: 100px;
+        height: 100px;
     }
 
    /********** activites *****/
     .Activites {
-      padding: 20px 20px 100px 20px; 
+         padding: 20px 20px 100px 20px; 
     }
   
     .Activites-card {
-       display:flex;
-       flex-direction: column;
-       gap: 45px;
+        display:flex;
+        flex-direction: column;
+        gap: 45px;
      
     }
 
@@ -658,23 +671,23 @@ footer li {
     }
 
     .Activites-card a {
-       width: 98%;
-       height: 200px;
+        width: 98%;
+        height: 200px;
     }
 
     /******* Activites*****/
     
     footer {
-      flex-direction: column;
-      justify-content:space-around;
-      gap: 1px;
-      margin-bottom: 20px;
-      padding:30px;
-      height: 460px;
+        flex-direction: column;
+        justify-content:space-around;
+        gap: 1px;
+        margin-bottom: 20px;
+        padding:30px;
+        height: 460px;
     }
   
     footer section {
-      margin: 0;
+        margin: 0;
     
     }
 }
