@@ -540,17 +540,23 @@ footer li {
         display: flex;
         padding-left: 0px;
         padding-top: 40px;
-        justify-content: center;
+        gap:unset;
     }
- 
-    header li :hover,
-    header li :focus {
+    
+    header li {
+       text-align: center; 
+       width: 50%;
+    }
+
+
+    header li:hover,
+    header li:focus {
         border-bottom: #0065FC solid 3px;
         padding-bottom: 30px;
     }
     
-    header li a:hover,
-    header li a:focus {
+    header li :hover,
+    header li :focus {
     border-top: none;
    }
   
@@ -650,8 +656,8 @@ footer li {
     }
 
    /********** activites *****/
-    .Activites {
-         padding: 20px 20px 100px 20px; 
+    .activites {
+        margin-bottom: 40px;
     }
   
     .Activites-card {
