@@ -504,7 +504,7 @@ footer li {
     }
 
     .Activites-card img  {
-        height: 220px;
+        height: 200px;
     }
     .Activites-card a {
         width: 98%;
@@ -530,8 +530,7 @@ footer li {
     }
 
     header div a {
-        display: flex;
-        justify-content: center;
+        
     }
   
     header ul {
