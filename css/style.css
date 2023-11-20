@@ -502,8 +502,16 @@ footer li {
         flex-direction: column;
         
     }
+
+    .Activites-card img  {
+        height: 220px;
+    }
+    .Activites-card a {
+        width: 98%;
+        height:unset;
+    }
     .Activites-card .card {
-        height: 420px;
+        height: 270px;
     }
     .Activites-card .card h4{
         margin: 10px;
@@ -666,7 +674,6 @@ footer li {
 
     .Activites-card a {
         width: 98%;
-        height: 200px;
     }
 
     /******* Activites*****/
@@ -678,6 +685,7 @@ footer li {
         margin-bottom: 20px;
         padding:30px;
         height: 460px;
+        margin-top: unset;
     }
   
     footer section {
