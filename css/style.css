@@ -526,17 +526,12 @@ footer li {
   
     header ul {
         display: flex;
-        flex-direction: row;
-        padding: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
         justify-content: center;
     }
     
-    header li { 
-        display:flex;
-        flex-direction:row;
-        padding: 30px;
-    }
-
+ 
     header li :hover,
     header li :focus {
         border-bottom: #0065FC solid 3px;
@@ -551,7 +546,6 @@ footer li {
     form {
         Padding-top: 20px;
         justify-content: center;
-      
     }
   
     form input {
