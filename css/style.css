@@ -180,7 +180,6 @@ form Input {
 
 .filters li:hover,
 .filters li:focus {
-    border-color: #Deebff;
     cursor: pointer;
     transition-duration: 500ms;
     background-color: #deebff;
@@ -410,9 +409,7 @@ footer h3 {
 
 footer li {
     margin: 15px;
-
 }
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -458,7 +455,7 @@ footer li {
 
     .filters li {
         flex-wrap: nowrap;
-        font-style: 12px
+        font-size: 12px
     }
 
     .hebergements-and-populaires {
@@ -531,6 +528,7 @@ footer li {
         display: flex;
         flex-direction: row;
         padding: 0px;
+        justify-content: center;
     }
     
     header li { 
@@ -582,9 +580,10 @@ footer li {
     }
   
     .filters {
-        flex-wrap: wrap;
+        display:flex;
+        flex-direction:column;
         padding-top: 20px;
-        gap: 5%;
+        align-items: unset;
     }
   
     .filters ul {
