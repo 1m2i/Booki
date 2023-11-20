@@ -416,6 +416,7 @@ footer li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1200px) {
+
     .hebergements {
         display: flex;
         flex-direction: column;
@@ -446,11 +447,12 @@ footer li {
 
 }
 
-
 @media (max-width: 1024px) {
 
-    .filters ul {
-        flex-wrap: nowrap;
+    .filters {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
     }
 
     .filters li {
