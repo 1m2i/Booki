@@ -449,6 +449,10 @@ footer li {
 
 @media (max-width: 1024px) {
 
+    .header-text h1 {
+        margin-top: 60px;
+      }
+
     .filters {
         display: flex;
         flex-direction: column;
@@ -529,8 +533,8 @@ footer li {
         display:unset;
     }
 
-    header div a {
-        
+    .logo {
+        text-align:center;
     }
   
     header ul {
