@@ -444,7 +444,6 @@ footer li {
         margin: 7px;
         margin-left: 0px;
     }
-
 }
 
 @media (max-width: 1024px) {
@@ -543,7 +542,6 @@ footer li {
         padding-top: 40px;
         justify-content: center;
     }
-    
  
     header li :hover,
     header li :focus {
@@ -554,7 +552,7 @@ footer li {
     header li a:hover,
     header li a:focus {
     border-top: none;
-}
+   }
   
     form {
         Padding-top: 20px;
@@ -586,10 +584,7 @@ footer li {
     }
   
     .filters {
-        display:flex;
-        flex-direction:column;
         padding-top: 20px;
-        align-items: unset;
     }
   
     .filters ul {
@@ -693,8 +688,20 @@ footer li {
   
     footer section {
         margin: 0;
-    
     }
+/* Small devices  */
+@media (max-width: 409px) {
+/* ... */
+     .filters li {
+        width: 30% 
+     }
+
+     .filters li i {
+        font-size:13px;
+        gap: 1%;
+
+    }
+}
 }
   
   
