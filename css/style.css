@@ -57,8 +57,8 @@ header ul {
     align-content: center;
 }
 
-header li :hover,
-header li :focus {
+header li:hover,
+header li:focus {
     border-top: #0065FC solid 3px;
     color: #0065FC;
     padding-top: 20px;
@@ -181,7 +181,6 @@ form Input {
 .filters li:hover,
 .filters li:focus {
     cursor: pointer;
-    transition-duration: 500ms;
     background-color: #deebff;
     color: #0065fc;  
 }
@@ -538,28 +537,24 @@ footer li {
   
     header ul {
         display: flex;
+        margin-top: 40px;
+        gap: unset;
         padding-left: 0px;
-        padding-top: 40px;
-        gap:unset;
+        text-align: center;
     }
     
     header li {
-       text-align: center; 
        width: 50%;
     }
+ 
 
-
-    header li:hover,
-    header li:focus {
-        border-bottom: #0065FC solid 3px;
-        padding-bottom: 30px;
-    }
-    
     header li :hover,
     header li :focus {
-    border-top: none;
-   }
-  
+        border-bottom: #0065FC solid 3px;
+        padding-bottom: 20px;
+        border-top: none;
+    }
+   
     form {
         Padding-top: 20px;
     }
@@ -695,6 +690,7 @@ footer li {
     footer section {
         margin: 0;
     }
+}
 /* Small devices  */
 @media (max-width: 409px) {
 /* ... */
@@ -708,7 +704,7 @@ footer li {
 
     }
 }
-}
+
   
   
 
