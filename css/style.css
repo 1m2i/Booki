@@ -48,26 +48,28 @@ nav img {
   width: 80px;
   padding-top: 10px;
 }
-
-/* header ul {
-    display: flex;
-    flex-wrap:wrap;
-    gap: 50px;
-    list-style: none;
-    align-content: center;
-}
-
-header li :hover,
-header li :focus {
-    border-top: #0065FC solid 3px;
-    color: #0065FC;
-    padding-top: 20px;
-} */
 nav {
     display: flex;
     list-style-type : none;
     justify-content: space-between;
   }
+
+nav ul {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+        gap: 69px;
+}
+
+nav li a { 
+    border-top: 3px solid transparent;
+    padding: 21px;
+}
+  
+nav li a:hover,
+nav li a:focus {
+    border-top-color: #0065fc ;
+}
 
 .header-text h1 {
     margin-top: 25px;
@@ -86,6 +88,7 @@ form {
 }
 
 /*---------- Îcon localisation ----------*/
+
 .fa-location-dot {
     display: flex;
     width: 50px;
@@ -99,6 +102,7 @@ form {
   }
 
 /*---------- Input search ----------*/
+
 .search_bar {
     background-color: #0065fc;
     border-radius: 0 15px 15px 0;
@@ -245,6 +249,7 @@ a {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -539,54 +544,32 @@ footer li {
     .logo {
         text-align:center;
     }
-  
-    /* header ul {
-        display: flex;
-        margin-top: 40px;
-        gap: unset;
-        padding-left: 0px;
-        text-align: center;
-    }
-    
-    header li a{
-       width: 50%;
-    }
- 
-
-    header li :hover,
-    header li :focus {
-        border-bottom: #0065FC solid 3px;
-        padding-bottom: 20px;
-        border-top: none;
-    } */
    
     nav {
         flex-direction: column;
         gap: 50px;
       }
     
-      nav a {
+    nav a {
         border-top: none;
       }
     
-      nav ul {
-        
+    nav ul {
         display: flex;
         list-style-type: none;
         justify-content: space-between;
         padding-left: 0;
         text-align: center;
       }
-      }
     
-      nav li { 
+    nav li { 
         width: 100%;
         border-bottom: 2px solid transparent;
         padding: 30px;
-      }
+    }
       
-      nav li:hover,
-      nav li:focus {
+    nav li:hover,
+    nav li:focus {
         border-bottom-color: #0065fc ;
       }
       
