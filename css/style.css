@@ -543,7 +543,7 @@ footer li {
         text-align: center;
     }
     
-    header li {
+    header li a{
        width: 50%;
     }
  
