@@ -556,6 +556,8 @@ footer li {
     }
    
     form {
+        display:flex;
+        justify-content: center;
         Padding-top: 20px;
     }
   
@@ -606,7 +608,7 @@ footer li {
     .hebergements-and-populaires {
         display: flex; 
         flex-direction: column-reverse;
-        gap: 20px;
+        gap: 20px;;
     }
   
     .populaires-title {
@@ -630,6 +632,7 @@ footer li {
 
     #hebergements {
         background-color: unset;
+        padding:unset
     }
 
     .hebergements span {
