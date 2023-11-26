@@ -572,6 +572,11 @@ footer li {
     nav li:focus {
         border-bottom-color: #0065fc ;
       }
+
+      nav li a:hover,
+      nav li a:focus {
+          border-top:none;
+        }
       
     form {
         display:flex;
