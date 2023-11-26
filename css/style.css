@@ -560,12 +560,13 @@ footer li {
         justify-content: space-between;
         padding-left: 0;
         text-align: center;
+        gap: unset;
       }
     
     nav li { 
         width: 100%;
         border-bottom: 2px solid transparent;
-        padding: 30px;
+        padding-bottom: 30px;
     }
       
     nav li:hover,
