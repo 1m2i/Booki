@@ -38,16 +38,17 @@ h4 {
   }
 
 /*---------- Header ----------*/
-nav {
+header {
     margin: auto;
     display: flex;
     justify-content: space-between;
   }
 
-nav img {
-  width: 80px;
-  padding-top: 10px;
+.logo img{
+    width: 20%;
+    padding-top:10px;
 }
+
 nav {
     display: flex;
     list-style-type : none;
@@ -58,7 +59,7 @@ nav ul {
         display: flex;
         list-style-type: none;
         padding-left: 0;
-        gap: 69px;
+        gap: 68px;
 }
 
 nav li a { 
@@ -425,6 +426,7 @@ footer li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1200px) {
+    
 
     .hebergements {
         display: flex;
@@ -543,6 +545,10 @@ footer li {
 
     .logo {
         text-align:center;
+    }
+    .logo img{
+        width: 20%;
+        padding:30px;
     }
    
     nav {
